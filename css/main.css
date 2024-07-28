@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: #181818;
+}
+
+.main-box {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-box h1.name {
+    font-family: 'Cantarell';
+    color: #a0a0a0;
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+
+.main-box h2.description {
+    font-family: 'Cantarell';
+    color: #405a5a;
+    font-size: 20px;
+}
+
+.main-box h1.easter-tomato {
+    font-family: 'Cantarell';
+    color: #202020;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Cantarell';
+    color: #808080;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
